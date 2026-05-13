@@ -1,0 +1,38 @@
+appId: com.valkyrie-tun.app
+productName: valkyrieTUN
+directories:
+  output: release
+  buildResources: resources
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - "!node_modules/**/*.{md,txt,map}"
+asar: true
+linux:
+  target:
+    - target: deb
+      arch: [x64, arm64]
+    - target: rpm
+      arch: [x64, arm64]
+    - target: AppImage
+      arch: [x64, arm64]
+    - target: tar.gz
+      arch: [x64, arm64]
+  category: Network
+  icon: resources/icon.png
+  desktop:
+    Name: valkyrieTUN
+    Comment: Modern SSH Client
+    Categories: Network;RemoteAccess;
+    Keywords: ssh;terminal;sftp;remote;
+  maintainer: valkyrieTUN Contributors
+deb:
+  depends:
+    - libnotify4
+    - libxtst6
+    - libnss3
+rpm:
+  depends:
+    - libnotify
+    - libXtst
+    - nss
