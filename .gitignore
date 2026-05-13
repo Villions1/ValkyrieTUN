@@ -12,3 +12,4 @@ release/
 Thumbs.db
 .vscode/
 .idea/
+SECURITY_AUDIT.md
