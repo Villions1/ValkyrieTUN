@@ -12,6 +12,7 @@ ports. Credentials are encrypted at rest with a master password (PBKDF2-SHA512,
 Repository: <https://github.com/Villions1/ValkyrieTUN>
 
 ---
+<img width="1918" height="1014" alt="изображение" src="https://github.com/user-attachments/assets/b5b8290c-8cf4-4116-8f14-dc1dd3d8aee8" />
 
 ## Features
 
