@@ -241,7 +241,6 @@ ValkyrieTUN/
 │   └── lib/                        # Renderer-side API bridge
 ├── electron-builder.yml            # Build targets
 ├── package.json
-├── SECURITY_AUDIT.md               # Full pentest report + fix log
 └── README.md
 ```
 
